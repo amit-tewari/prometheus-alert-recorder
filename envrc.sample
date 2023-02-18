@@ -1,0 +1,7 @@
+# save this file as .envrc and update values as per your environment
+export HELLO='hola'
+export HELM='helm3'
+export IMAGE_NAME='image_name_with_full_repo_path'
+export RELEASE_NAME='helm_release_name'
+export TEST_NAMESPACE='kubernetes_namespace_to_deploy_test_release_to'
+export LOGS_FILE='/tmp/prometheus-alerts-recorder.txt'
